@@ -5,114 +5,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso HTML5 & CSS3 - Jairo Espinoza</title>
-    <link rel="stylesheet" href="css/normalize.css" />
+    <title>Publiultra</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/scrollomatic.js"></script>
-    <script src="js/modernizr.js"></script>
-    <script src="js/prefixfree.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("a.scroll").scrollmatic();
-        });
-    </script>
+    <link rel="shortcut icon" href="./img/icono.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/9a357e20ff.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <header>
-        <a href="#home" class="scroll">
-            <div id="logo"></div>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#home" class="scroll">Home</a></li>
-                <li><a href="#temas" class="scroll">Temas</a></li>
-                <li><a href="#galeria" class="scroll">Galeria</a></li>
-                <li><a href="#contacto" class="scroll">Contactanos</a></li>
-            </ul>
-        </nav>
+        <div class="header">
+            <div class="header-center">
+                <a href="#nosotros">NOSOTROS</a>
+                <a href="#servicios">SERVICIOS</a>
+                <a href="#" id="logo"></a>
+                <a href="#blog">BLOG</a>
+                <a href="#contacto">CONTACTO</a>
+            </div>
+        </div>
     </header>
+    <!-- inicio  -->
     <main id="contenido">
-        <video autoplay loop preload="auto">
-        <source src="video/video.mp4" type="video/mp4" />
-        <source src="video/video.ogv" type="video/ogv" />
-        <source src="video/video.webm" type="video/webm" />
-        <p>Su navegador no soporta el elemento video</p>
-      </video>
-        <section id="home">
-            <div id="globo"></div>
-            <h2>Bienvenido al Curso de <span>HTML & CSS</span></h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cumque, aspernatur beatae voluptatibus necessitatibus magni voluptatum, magnam ipsa sapiente accusamus quam iusto non facilis, aperiam dolore est neque inventore! Esse! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Quae similique, facere unde dignissimos error sequi cupiditate voluptates. Possimus libero nesciunt quam odio recusandae, quibusdam similique veritatis minus numquam accusantium vitae?
-            </p>
-            <a href="#temas" class="scroll">Conozca mas</a>
-            <div id="abajo"></div>
-        </section>
-        <section id="temas">
-            <h3>Temas</h3>
-            <article>
-                <div id="imagen1"></div>
-                <h4>Subtitulo nivel 4</h4>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quia quo magni corrupti eaque libero delectus voluptatibus, deserunt neque porro. Quia numquam omnis molestiae optio aperiam repellat adipisci nisi quos?
-                </p>
-                <a href="">Leer mas</a>
-                <div id="imagen2"></div>
-                <h4>Subtitulo nivel 4</h4>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, iure? Culpa quia tenetur rerum vero! Rem at adipisci, nam, consequatur maiores autem veritatis provident voluptas recusandae reprehenderit ipsam eos aliquid?
-                </p>
-                <a href="">Leer mas</a>
-                <div id="imagen3"></div>
-                <h4>Subtitulo nivel 4</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos, consectetur inventore dolorum, excepturi sit quam illo nisi magni natus voluptas id qui beatae ipsum accusamus vel aliquid maiores ipsam.
-                </p>
-                <a href="">Leer mas</a>
-            </article>
-        </section>
-        <section id="galeria">
-            <h3></h3>
-            <div id="fotos">
-                <a href="#" title="Imagen1"><img src="img/1.jpg" alt="Imagen1" /></a>
-                <a href="#" title="Imagen2"><img src="img/2.jpg" alt="Imagen2" /></a>
-                <a href="#" title="Imagen3"><img src="img/3.jpg" alt="Imagen3" /></a>
-                <a href="#" title="Imagen4"><img src="img/4.jpg" alt="Imagen4" /></a>
-                <a href="#" title="Imagen5"><img src="img/5.jpg" alt="Imagen5" /></a>
-                <a href="#" title="Imagen6"><img src="img/6.jpg" alt="Imagen6" /></a>
-                <a href="#" title="Imagen7"><img src="img/7.jpg" alt="Imagen7" /></a>
-                <a href="#" title="Imagen8"><img src="img/8.jpg" alt="Imagen8" /></a>
-                <a href="#" title="Imagen9"><img src="img/9.jpg" alt="Imagen9" /></a>
+        <section id="inicio">
+            <div class="inicio">
+                <ul>
+                    <li><img id="planeta1" src="./img/planeta1.svg" alt="" /></li>
+                    <li><img id="planeta2" src="./img/planeta2.svg" alt="" /></li>
+                    <li><img id="planeta3" src="./img/planeta3.svg" alt="" /></li>
+                    <li><img id="planeta4" src="./img/planeta4.svg" alt="" /></li>
+                    <li><img id="planeta5" src="./img/planeta5.svg" alt="" /></li>
+                    <li><img id="planeta6" src="./img/planeta6.svg" alt="" /></li>
+                </ul>
+                <img id="astronauta" src="./img/astronauta.png" alt="" />
+                <h2>PUBLIULTRA</h2>
+                <a href="#nosotros"><i class="fas fa-angle-double-down"></i></a>
+                <div id="abajo"><i class="fas fa-angle-down"></i></div>
             </div>
         </section>
+        <!-- nosotros -->
+        <section id="nosotros">
+            <div class="nosotros">
+                <div class="imagen">
+                    <img src="./img/astronauta2.png" />
+                </div>
+                <div class="texto">
+                    <h3>"La marca que expande mas alla de tus fronteras"</h3>
+                    <a href="#"><i class="fab fa-whatsapp">Conversa con nosotros</i></a>
+                </div>
+            </div>
+        </section>
+        <!-- servicios -->
+        <section id="servicios">
+            <div class="nuestros-servicios">
+                <h3>SOMOS</h3>
+                <div id="varios">
+                    <ul id="serices">
+                        <li>
+                            <i class="far fa-heart"></i>
+                            <h5>Branding</h5>
+                        </li>
+                        <li>
+                            <i class="far fa-star"></i>
+                            <h5>Marketing Digital</h5>
+                        </li>
+                        <li>
+                            <i class="fas fa-desktop"></i>
+                            <h5>Diseño Web</h5>
+                        </li>
+                        <li>
+                            <i class="fas fa-camera"></i>
+                            <h5>Audio visual</h5>
+                        </li>
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            <h5>Social Media</h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- contacto -->
         <section id="contacto">
-            <h3></h3>
-            <div id="formulario">
-                <form action="" method="post">
-                    <input type="text" name="nombre" placeholder="Nombre" required />
-                    <input type="email" name="email" placeholder="Email" required />
-                    <input type="tel" name="telefono" placeholder="Telefono" required pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Debe ser un numero telefonico con la estructura xxx xxx xxxx, teniendo en cuenta los espacios" required />
-                    <tel></tel>
-                    <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
-                    <input type="submit" value="Enviar Datos" />
-                </form>
+            <div>
+                <h3>CONTÁCTANOS</h3>
+                <div id="formulario">
+                    <form action="" method="post">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre*" required />
+                        <input type="email" id="correo" name="correo" placeholder="Correo*" required />
+                        <input type="tel" id="telefono" name="telefono" placeholder="Telefono*" required pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Debe ser un numero telefonico con la estructura xxx xxx xxxx, teniendo en cuenta los espacios" required />
+                        <input type="text" id="servicio" name="servicio" placeholder="Servicio*" required />
+                        <textarea class="mensaje" name="mensaje" cols="29" rows="9" placeholder="Mensaje*" required></textarea>
+                        <input type="submit" value="Enviar" />
+                    </form>
+                </div>
             </div>
-            <div id="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31223.450223398533!2d-77.08350600000001!3d-11.979257100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1615926451304!5m2!1ses!2spe" width="600" height="450" style="border: 0"
-                    allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <a href="#contenido" class="arriba scroll"></a>
         </section>
-        <footer>
-            <p>Copyright &copy; 2021 Jairo Espinoza</p>
-        </footer>
+        <div class="footer">
+            <footer>
+                <p>Copyright &copy; 2021 Jairo Espinoza</p>
+            </footer>
+        </div>
     </main>
 </body>
 
